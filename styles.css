@@ -1,0 +1,58 @@
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F3EFff; 
+    border-bottom: 4px solid black;
+
+}
+.image {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    border: 2px dotted black;
+    border-radius: 5%;
+ 
+}
+
+.text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.text:hover {
+    font-size: 17px;
+}
+.image:hover {
+    background-color: aqua;
+}
+
+@keyframes exampleAnimation {
+from {
+    transform: rotate(10deg);
+}
+to {
+    transform: rotate(-10deg);
+}
+   
+}
+.animated-element {
+    animation: exampleAnimation 5s ease-in-out infinite alternate;
+}
+
+@keyframes animated-element-prokurent   {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+       
+    }
+.animated-element-prokurent {
+        animation: animated-element-prokurent 5s ease-in-out infinite alternate;
+    }
